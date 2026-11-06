@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>우루루 한국어 통역기 사용법</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&family=Noto+Sans+Devanagari:wght@400;600&display=swap">
+<style>
+/* 레이아웃: 한 장짜리 세로 안내 — 한국어 크게, 네팔어 아래 작게 */
+:root{--bg:#f7f8fa;--card:#fff;--line:#e3e6eb;--fg:#15181d;--sub:#6b7380;--accent:#1f6feb;--soft:#e8f0fe;--ok:#1a9b55;--warn:#d98a00;
+  --ko:"Noto Sans KR","Apple SD Gothic Neo","Malgun Gothic",sans-serif;--ne:"Noto Sans Devanagari","Nirmala UI",sans-serif}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--ko);line-height:1.6}
+.wrap{max-width:760px;margin:0 auto;padding:28px max(16px,env(safe-area-inset-left)) 60px;display:flex;flex-direction:column;gap:16px}
+header{padding:8px 0 4px}
+h1{font-size:32px;font-weight:900;margin:0;letter-spacing:-.02em}
+.ne{font-family:var(--ne);color:var(--sub);font-size:.92em;display:block}
+h1 .ne{font-size:18px;font-weight:600;margin-top:4px}
+.url{margin-top:12px;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px;font-size:15px;display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.url code{font-size:16px;font-weight:700;color:var(--accent);word-break:break-all}
+section{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px 20px 18px}
+h2{margin:0 0 12px;font-size:21px;display:flex;gap:10px;align-items:baseline;flex-wrap:wrap}
+h2 .step{background:var(--accent);color:#fff;border-radius:8px;font-size:14px;padding:2px 9px;flex:none}
+h2 .ne{display:inline;font-size:15px;font-weight:600}
+ol{margin:0;padding-left:22px;display:flex;flex-direction:column;gap:12px}
+li b{font-weight:700}
+.btn{display:inline-block;border:1px solid var(--accent);color:var(--accent);border-radius:7px;padding:0 8px;font-size:.9em;font-weight:700;background:var(--soft);white-space:nowrap}
+.demo{margin-top:14px;border:1px dashed var(--line);border-radius:12px;padding:14px 16px;background:var(--bg)}
+.demo .k{font-size:28px;font-weight:900;line-height:1.3}
+.demo .r{color:var(--accent);font-size:16px;font-weight:500}
+.demo .t{font-family:var(--ne);color:var(--sub);font-size:17px;margin-top:4px}
+.demo .tag{display:inline-block;font-size:12px;font-weight:700;color:var(--accent);background:var(--soft);border-radius:99px;padding:2px 9px;margin-bottom:6px}
+.tip{margin-top:12px;font-size:14px;background:#fff7e6;border-radius:10px;padding:10px 12px;color:#7a5200}
+.ladder{display:flex;gap:6px;margin-top:10px;flex-wrap:wrap}
+.ladder span{flex:1;min-width:90px;text-align:center;border-radius:9px;padding:8px 4px;font-size:14px;font-weight:700;background:var(--soft);color:var(--accent)}
+.ladder span:nth-child(2){background:#d6e4fd}.ladder span:nth-child(3){background:#b9d0fb}.ladder span:nth-child(4){background:var(--accent);color:#fff}
+.rule{font-size:20px;font-weight:900;text-align:center;padding:22px 16px;background:var(--accent);color:#fff;border-radius:16px}
+.rule .ne{color:#dbe7ff;font-size:15px;font-weight:600;margin-top:6px}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <h1>한국어 통역기 사용법<span class="ne">कोरियन अनुवादक प्रयोग गर्ने तरिका</span></h1>
+  <div class="url">주소 <span class="ne" style="display:inline">ठेगाना</span> <code>whwognl.github.io/ururu-translator</code></div>
+</header>
+
+<div class="rule">한국어를 먼저 보고, 뜻은 나중에
+  <span class="ne">पहिला कोरियन हेर्नुहोस्, अर्थ पछि हेर्नुहोस्</span>
+</div>
+
+<section>
+  <h2><span class="step">1</span>대표님이 말할 때 <span class="ne">बोस बोल्दा</span></h2>
+  <ol>
+    <li><b>큰 글씨 한국어</b>를 먼저 읽어요
+      <span class="ne">ठूलो अक्षरको कोरियन पहिला पढ्नुहोस्</span></li>
+    <li>아래 <b>파란 글씨</b>로 소리 내서 따라 읽어요
+      <span class="ne">तलको नीलो अक्षर हेरेर आवाज निकालेर पढ्नुहोस्</span></li>
+    <li>뜻을 <b>머릿속으로 먼저 생각</b>해요 — 2초 뒤에 네팔어 뜻이 나와요
+      <span class="ne">अर्थ पहिला मनमा सोच्नुहोस् — २ सेकेन्डपछि नेपाली अर्थ आउँछ</span></li>
+    <li>다시 듣고 싶으면 <span class="btn">🔊</span> 눌러요
+      <span class="ne">फेरि सुन्न 🔊 थिच्नुहोस्</span></li>
+  </ol>
+  <div class="demo">
+    <div class="k">물건 정리해 주세요</div>
+    <div class="r">mulgeon jeongrihae juseyo</div>
+    <div class="t">कृपया सामान मिलाउनुहोस्</div>
+  </div>
+</section>
+
+<section>
+  <h2><span class="step">2</span>내가 말할 때 <span class="ne">म बोल्दा</span></h2>
+  <ol>
+    <li><b>먼저 한국어로 해봐요</b> — 틀려도 괜찮아요
+      <span class="ne">पहिला कोरियनमा बोल्ने कोसिस गर्नुहोस् — गल्ती भए पनि ठीक छ</span></li>
+    <li>막히면 <span class="btn">네팔어로 말하기</span> 누르고 네팔어로 말해요
+      <span class="ne">अड्किनुभयो भने "नेपालीमा बोल्नुहोस्" थिचेर नेपालीमा बोल्नुहोस्</span></li>
+    <li><b>"한국어로는 이렇게"</b>가 나오면 그 문장을 <b>소리 내서 한 번 말해요</b>
+      <span class="ne">"कोरियनमा यसरी" आएपछि त्यो वाक्य एक पटक ठूलो स्वरले बोल्नुहोस्</span></li>
+  </ol>
+  <div class="demo">
+    <div class="tag">한국어로는 이렇게</div>
+    <div class="k">청소 다 했어요</div>
+    <div class="r">cheongso da haesseoyo</div>
+    <div class="t">मैले सफा गरिसकें</div>
+  </div>
+</section>
+
+<section>
+  <h2><span class="step">3</span>퇴근 전 10분 복습 <span class="ne">घर जानु अघि १० मिनेट दोहोर्याउने</span></h2>
+  <ol>
+    <li><span class="btn">복습</span> 눌러요 — 오늘 나온 문장이 다 있어요
+      <span class="ne">"복습" थिच्नुहोस् — आज बोलेका सबै वाक्य त्यहाँ छन्</span></li>
+    <li>한국어 보고 <b>뜻 생각</b> → <span class="btn">뜻 보기</span>로 확인
+      <span class="ne">कोरियन हेरेर अर्थ सोच्नुहोस् → "뜻 보기" थिचेर जाँच्नुहोस्</span></li>
+    <li><span class="btn">🎤 따라 말하기</span> 누르고 한국어로 말해요 — 몇 % 맞았는지 나와요
+      <span class="ne">"🎤 따라 말하기" थिचेर कोरियनमा बोल्नुहोस् — कति % मिल्यो देखाउँछ</span></li>
+    <li>알면 <span class="btn">알아요</span>, 어려우면 <span class="btn">아직 어려워요</span>
+      <span class="ne">थाहा छ भने "알아요", गाह्रो छ भने "아직 어려워요"</span></li>
+    <li><span class="btn">아직 어려운</span>과 <span class="btn">자주 나온</span> 묶음부터 연습해요
+      <span class="ne">"아직 어려운" र "자주 나온" समूहबाट पहिला अभ्यास गर्नुहोस्</span></li>
+  </ol>
+</section>
+
+<section>
+  <h2><span class="step">4</span>익숙해지면 단계 올리기 <span class="ne">बानी परेपछि स्तर बढाउनुहोस्</span></h2>
+  <div>위쪽 <span class="btn">뜻 표시</span>에서 바꿔요
+    <span class="ne">माथिको "뜻 표시" बाट परिवर्तन गर्नुहोस्</span></div>
+  <div class="ladder"><span>바로</span><span>2초 뒤</span><span>3초 뒤</span><span>숨김</span></div>
+  <div class="tip">목표: 한 달 뒤 <b>숨김</b>으로 대화하기 · <span style="font-family:var(--ne)">लक्ष्य: एक महिनापछि अर्थ लुकाएर कुरा गर्ने</span></div>
+</section>
+
+<section>
+  <h2><span class="step">5</span>내 휴대폰에서 복습하기 <span class="ne">आफ्नो फोनमा अभ्यास</span></h2>
+  <ol>
+    <li>휴대폰 <b>크롬</b>으로 위 주소 열기 → 메뉴에서 <b>홈 화면에 추가</b>
+      <span class="ne">फोनको Chrome मा माथिको ठेगाना खोल्नुहोस् → मेनुबाट "होम स्क्रिनमा थप्नुहोस्"</span></li>
+    <li>사무실 화면 <span class="btn">복습</span> → <span class="btn">내보내기</span> → 파일을 카톡으로 받기
+      <span class="ne">अफिसको स्क्रिनमा "복습" → "내보내기" → फाइल KakaoTalk मा पाउनुहोस्</span></li>
+    <li>내 휴대폰 <span class="btn">복습</span> → <span class="btn">가져오기</span> → 받은 파일 선택
+      <span class="ne">आफ्नो फोनमा "복습" → "가져오기" → पाएको फाइल छान्नुहोस्</span></li>
+  </ol>
+  <div class="tip">문장은 그 기기에만 저장돼요 — 옮길 때는 내보내기·가져오기 · <span style="font-family:var(--ne)">वाक्य त्यही यन्त्रमा मात्र बस्छ</span></div>
+</section>
+
+</div>
+</body>
+</html>
